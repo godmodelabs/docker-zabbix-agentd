@@ -1,5 +1,5 @@
 # docker-zabbix-agentd
-A Debian latest based Docker container running zabbix_agentd in a CoreOS instance. 
+A Debian latest based Docker container running zabbix_agentd in a CoreOS instance.
 
 Environment variables prefixed with "ZBX_CONF_" will be written to /etc/zabbix/zabbix_agentd.d/80-env-generated.conf (override by setting ZBX_CONFIGFILE).  
 ZBX_CONF_ServerActive=proxy02,server01 => ServerActive=proxy02,server01  
